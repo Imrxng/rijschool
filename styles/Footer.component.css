@@ -1,6 +1,6 @@
 #footer {
     background-color: var(--blue);
-    color: #fff;
+    color: var(--white);
     padding: 40px 0;
     display: flex;
     justify-content: center;
@@ -19,7 +19,8 @@
 
 .footer-grid {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 15rem;
     width: 100%;
     margin-bottom: 2rem;
 }
@@ -42,7 +43,7 @@
 }
 
 .footer-list li a {
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
 }
 
