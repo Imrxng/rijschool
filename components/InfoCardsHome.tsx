@@ -1,6 +1,5 @@
 import React from 'react';
 import CardHome from './CardHome';
-import "@/styles/infoCardHome.component.css";
 import { FaCarSide, FaRegCalendar } from "react-icons/fa";
 import { GiDiploma } from "react-icons/gi";
 import { IoCall } from "react-icons/io5";

@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import React from 'react'
-import "@/styles/introHome.component.css";
 import { FaCar } from "react-icons/fa";
 
 const IntroHome = () => {

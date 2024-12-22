@@ -1,5 +1,4 @@
 import React from "react";
-import "@/styles/HomePhotoWithInfo.component.css";
 
 const HomePhotoWithInfo = () => {
   return (

@@ -1,5 +1,4 @@
 import React from 'react'
-import "@/styles/Ervaringen.component.css";
 import { FaStar } from "react-icons/fa";
 
 const Ervaringen = () => {
