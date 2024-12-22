@@ -1,0 +1,40 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--white);
+  height: 90px;
+  padding: 0 4rem 0 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray);
+  transition-duration: 0.5s;  font-weight: bold;
+
+}
+
+a:hover {
+  color: var(--red);
+  transition-duration: 0.5s;
+}
+
+#nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: var(--gray);
+  font-size: large;
+}
+
+#socials {
+  font-size: x-large;
+  display: flex;
+  gap: 1rem;
+}
+
+#logo {
+  height: 120px;
+  width: auto;
+}

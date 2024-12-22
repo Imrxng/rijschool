@@ -1,0 +1,23 @@
+#homePhotoWithInfo {
+    background-color: var(--blue);
+    color: var(--white);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 5rem 12rem;
+    gap: 10rem;
+}
+
+#homePhotoWithInfo img {
+  border-radius: 10px;
+  width: 700px;
+  height: 400px;
+  object-fit: cover;  
+}
+
+
+#homePhotoWithInfo div {
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+  }

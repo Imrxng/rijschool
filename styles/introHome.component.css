@@ -1,0 +1,62 @@
+#introHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 8rem 0 8rem 0;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+#introHome h1 {
+  font-size: 40px;
+}
+
+#introHome h2 {
+  font-size: 24px;
+}
+
+#introHome p {
+  font-size: 16px;
+}
+
+#introHome button {
+  font-size: 16px;
+  height: 44px;
+  padding: 0 20px;
+}
+
+#introHome svg {
+  font-size: 36px;
+}
+
+#buttonLesson {
+  background-color: var(--red);
+  color: var(--white);
+}
+#buttonMoreInfo {
+  background-color: var(--white);
+  color: var(--red);
+}
+#buttonMoreInfo,
+#buttonLesson {
+  border-radius: 10px;
+  border: none;
+  transition-duration: 0.25s;
+  width: 10rem;
+  font-weight: bolder;
+}
+
+#buttonLesson:hover,
+#buttonMoreInfo:hover {
+  background-color: var(--blue);
+  color: var(--white);
+  border: white solid 1px;
+  transition-duration: 0.25s;
+}
+
+#introHomeButtons {
+  display: flex;
+  gap: 1rem;
+}
