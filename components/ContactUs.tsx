@@ -10,10 +10,10 @@ const ContactUs = () => {
   const validateForm = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const form = event.target as HTMLFormElement;
-    const name = form.name.value.trim();
-    const email = form.mail.value.trim();
-    const phone = form.phone.value.trim();
-    const message = form.message.value.trim();
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value.trim();
+    const email = (form.elements.namedItem("mail") as HTMLInputElement).value.trim();
+    const phone = (form.elements.namedItem("phone") as HTMLInputElement).value.trim();
+    const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value.trim();
 
     let valid = true;
     const newErrors = { name: "", email: "", phone: "", message: "" };
