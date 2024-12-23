@@ -1,12 +1,13 @@
 import Header from "@/components/header";
-import Map from "@/components/Map";
+import dynamic from "next/dynamic";
 
+const DynamicMap = dynamic(() => import("@/components/Map"), { ssr: false });
 
 const Contact = () => {
     return (
         <div>
             <Header/>
-            <Map/>
+            <DynamicMap/>
         </div>
     );
 }
