@@ -3,18 +3,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 3rem;
-  padding: 8rem 0 8rem 0;
+  gap: 2rem;
+  padding: 10rem 0 10rem 0;
   background-color: var(--blue);
   color: var(--white);
 }
 
 #introHome h1 {
-  font-size: 40px;
+  font-size: 42px;
+  color: var(--red);
 }
 
 #introHome h2 {
   font-size: 24px;
+  font-weight: lighter;
 }
 
 #introHome p {

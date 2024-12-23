@@ -2,8 +2,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5rem 0;
+    padding: 5rem 0;
     gap: 2rem;
+    background-color: var(--secondary-white);
 }
 
 .cardHome {

@@ -1,11 +1,25 @@
 #homePhotoWithInfo {
-    background-color: var(--blue);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     padding: 5rem 12rem;
     gap: 10rem;
+}
+
+#homePhotoWithInfo h1 {
+  font-size: x-large;
+  text-transform: capitalize;
+}
+#homePhotoWithInfo h2 {
+  font-size: large;
+  text-transform: capitalize;
+}
+
+#homePhotoWithInfo p {
+  font-size: medium;
+  text-transform: capitalize;
 }
 
 #homePhotoWithInfo img {
@@ -18,6 +32,6 @@
 
 #homePhotoWithInfo div {
     border-radius: 10px;
-    width: 40%;
+    width: 50%;
     height: auto;
   }

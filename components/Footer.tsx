@@ -11,7 +11,7 @@ const Footer = () => {
             <ul className="footer-list">
               <li>Phone: <a href="tel:+32 486 29 53 75">+32 486 29 53 75</a></li>
               <li>Email: <a href="mailto:rijschoolalpha@gmail.com">rijschoolalpha@gmail.com</a></li>
-              <li>Address: Antwerpen, België</li>
+              <li>Address: <a href="https://www.google.com/maps/place/Alpha+Rijschool/@51.2202801,4.4592743,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3f78275834721:0x9e464b0a101b01a4!8m2!3d51.2202801!4d4.4592743!16s%2Fg%2F11c58222mp?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target='_blank'>Turnhoutsebaan 76B, 2100 Antwerpen België</a></li>
             </ul>
           </div>
           <div>
