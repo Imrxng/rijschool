@@ -1,3 +1,5 @@
+import ContactUs from "@/components/ContactUs";
+import Footer from "@/components/Footer";
 import Header from "@/components/header";
 import dynamic from "next/dynamic";
 
@@ -7,7 +9,11 @@ const Contact = () => {
     return (
         <div>
             <Header/>
-            <DynamicMap/>
+            <ContactUs/> 
+            <div style={{ height: "700px", padding: "5rem 7rem 5rem 7rem", backgroundColor: '#f9f9f9' }}>
+                <DynamicMap/>
+            </div>
+            <Footer/>
         </div>
     );
 }

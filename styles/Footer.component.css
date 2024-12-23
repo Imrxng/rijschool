@@ -20,7 +20,7 @@
 .footer-grid {
     display: flex;
     justify-content: left;
-    gap: 15rem;
+    gap: 12rem;
     width: 100%;
     margin-bottom: 2rem;
 }
@@ -40,11 +40,13 @@
 
 .footer-list li {
     margin-bottom: 0.5rem;
+    font-weight: bolder;
 }
 
 .footer-list li a {
     color: var(--white);
     text-decoration: none;
+    font-weight: normal;
 }
 
 .footer-list li a:hover {
