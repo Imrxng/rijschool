@@ -1,33 +1,116 @@
 #overOnsIntro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 7rem 0 7rem 0;
-    background-color: var(--blue);
-    color: var(--white);
-    gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 7rem 0 7rem 0;
+  background-color: var(--blue);
+  color: var(--white);
+  gap: 0.5rem;
 }
 
 #overOnsIntro h1 {
-    font-size: 2.25rem;
+  font-size: 2.25rem;
 }
 
-#overOnsIntro p, #overOnsIntroText p {
-    font-size: 1.25rem;
-    max-width: 48rem;
-    text-align: center;
+#overOnsIntro p,
+#overOnsIntroText p,
+#OverOnsMeerInfo p {
+  font-size: 1.125rem;
+  max-width: 48rem;
+  text-align: center;
 }
 
 #overOnsIntroText {
-    padding: 5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--gray);
-
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--gray);
 }
 
-#overOnsIntroText p{
-    text-align: left;
+#overOnsIntroText p {
+  text-align: left;
+}
+
+#kiesOns {
+  background-color: var(--secondary-white);
+  margin: 0 8rem 0 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1rem;
+}
+
+#kiesOns h2 {
+  font-size: 1.875rem;
+  width: 100%;
+}
+
+#kiesOns h3 {
+  font-size: 1.25rem;
+}
+
+#kiesOns p,
+#OverOnsMeerInfo p {
+  color: var(--gray);
+}
+
+.kies-ons-item {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 1rem;
+  width: 45%;
+  margin: 1rem 0;
+}
+
+#OverOnsMeerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+}
+
+#OverOnsMeerInfo h1 {
+  font-size: 1.875rem;
+}
+
+#OverOnsMeerInfo-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+#left-button {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+#left-button,
+#right-button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#left-button:hover {
+  background-color: #ed1c23d6;
+  transition-duration: 0.25s;
+}
+
+#right-button {
+  background-color: var(--white);
+  color: var(--gray);
+  border: 1px solid var(--gray);
+}
+
+#right-button:hover {
+  background-color: var(--secondary-white);
+  transition-duration: 0.25s;
 }

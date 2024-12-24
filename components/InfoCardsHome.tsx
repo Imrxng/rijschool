@@ -1,17 +1,18 @@
 import React from 'react';
 import CardHome from './CardHome';
-import { FaCarSide, FaRegCalendar } from "react-icons/fa";
-import { GiDiploma } from "react-icons/gi";
-import { IoCall } from "react-icons/io5";
+import { FiPhone } from "react-icons/fi";
+import { LiaCarSideSolid } from "react-icons/lia";
+import { PiMedal } from "react-icons/pi";
+import { FaRegCalendar } from "react-icons/fa";
 
 
 const InfoCardsHome = () => {
   return (
     <div id='infoCardsHome'>
-        <CardHome title='Moderne Voertuigen' content="Leren rijden in veilige, comfortabele lesauto's van de nieuwste generatie." Icon={FaCarSide} color='red'/>
-        <CardHome title='Gecertificeerde Instructeurs' content="Professionele begeleiding van ervaren en gediplomeerde rijinstructeurs." Icon={GiDiploma} color='blue'/>
+        <CardHome title='Moderne Lesvoertuigen' content="Leren rijden in veilige, comfortabele lesauto's van de nieuwste generatie." Icon={LiaCarSideSolid} color='red'/>
+        <CardHome title='Gecertificeerde Instructeurs' content="Professionele begeleiding van ervaren en gediplomeerde rijinstructeurs." Icon={PiMedal} color='blue'/>
         <CardHome title='Flexibele Planningen' content="Rijlessen volledig afgestemd op jouw agenda." Icon={FaRegCalendar} color='red'/>
-        <CardHome title='Altijd Bereikbaar' content="Ondersteuning wanneer jij het nodig hebt, zeven dagen per week." Icon={IoCall} color='blue'/>
+        <CardHome title='Altijd Bereikbaar' content="Ondersteuning wanneer jij het nodig hebt, zeven dagen per week." Icon={FiPhone} color='blue'/>
     </div>
   )
 }

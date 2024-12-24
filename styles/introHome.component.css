@@ -1,4 +1,4 @@
-#introHome{
+#introHome, #overOnsIntro {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@
   transition-duration: 0.25s;
   width: 10rem;
   font-weight: 500;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 #buttonLesson:hover,
