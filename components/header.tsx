@@ -1,11 +1,13 @@
 import Link from "next/link";
+import Router from "next/router";
 import React from "react";
 import { FaFacebookF, FaTiktok } from "react-icons/fa";
 
 const Header = () => {
+  const router = Router;
   return (
     <div id="header">
-      <img src="./alpha-logo.png" alt="alpha-logo" id="logo"/>
+      <img src="./alpha-logo.png" alt="alpha-logo" id="logo" onClick={() => router.push("/")}/>
       <div id="nav">
         <Link href={"/"}>Home</Link>
         <Link href={"/over-ons"}>Over ons</Link>

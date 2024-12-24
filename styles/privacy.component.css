@@ -1,0 +1,33 @@
+.privacy-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 5rem 8rem;
+}
+
+.title-container {
+  background-color: var(--blue);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 20px;
+  margin: 0;
+  width: 100%;
+  padding: 10rem;
+}
+
+.privacy-container h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.privacy-container p {
+  margin-bottom: 15px;
+}
+
+.privacy-container p strong {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2em;
+}

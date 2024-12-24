@@ -10,7 +10,7 @@ const Contact = () => {
         <div>
             <Header/>
             <ContactUs/> 
-            <div style={{ height: "700px", padding: "5rem 7rem 5rem 7rem", backgroundColor: '#f9f9f9' }}>
+            <div id="map">
                 <DynamicMap/>
             </div>
             <Footer/>

@@ -6,6 +6,7 @@ const Footer = () => {
     <footer id="footer">
       <div className="footer-content">
         <div className="footer-grid">
+        <img src="./alpha-logo.png" alt="alpha-logo" id="logoFooter"/>
           <div>
             <h3 className="footer-title">Contact</h3>
             <ul className="footer-list">
@@ -34,6 +35,10 @@ const Footer = () => {
         </div>
         <div className="footer-bottom">
           <p>&copy; 2025 Alpha Rijschool. Alle Rechten voorbehouden.</p>
+          <div id='footer-bottom-links'>
+            <Link href={"/privacybeleid"}>Privacybeleid</Link>
+            <Link href={"/algemene-voorwaarden"}>Algemene voorwaarden</Link>
+          </div>
         </div>
       </div>
     </footer>

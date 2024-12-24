@@ -2,20 +2,20 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 5rem 0;
+  padding: 5rem 1.5rem 5rem 1.5rem;
   gap: 2rem;
   background-color: var(--secondary-white);
 }
 
 .cardHome {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   width: 20%;
   height: 220px;
   border-radius: 10px;
-  border: 1px solid rgba(88, 89, 91, 0.5);
+  border: 1px solid rgba(88, 89, 91, 0.182);
   padding: 1rem;
 }
 
