@@ -1,16 +1,16 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/header";
-import Privacy from "@/components/Privacy";
+import Voorwaarden from "@/components/Voorwaarden";
 import React from "react";
 
-const Privacybeleid = () => {
+const AlgemeneVoorwaarden = () => {
   return (
     <div>
       <Header />
-      <Privacy />
+      <Voorwaarden />
       <Footer />
     </div>
   );
 };
 
-export default Privacybeleid;
+export default AlgemeneVoorwaarden;

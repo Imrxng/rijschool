@@ -9,7 +9,7 @@ const IntroHome = () => {
         <h2>Kies voor kwaliteit, kies voor zekerheid. Begin vandaag nog aan je rijavontuur met Rijschool Alpha</h2>
         <div id='introHomeButtons'>
             <Link href={"/contact"}> <button id='buttonLesson'>Boek een les</button></Link>
-            <Link href={"/praktijk"}> <button id='buttonMoreInfo'>Meer informatie</button></Link>
+            <Link href={"/over-ons"}> <button id='buttonMoreInfo'>Meer informatie</button></Link>
         </div>
     </div>
   )
