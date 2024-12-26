@@ -9,6 +9,7 @@ import "@/styles/privacy.component.css";
 import "@/styles/Ervaringen.component.css";
 import "@/styles/contactUs.component.css";
 import "@/styles/theorie.component.css";
+import "@/styles/praktijk.component.css";
 import "@/styles/over-ons.component.css";
 import "leaflet/dist/leaflet.css";
 

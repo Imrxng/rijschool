@@ -11,6 +11,8 @@
 .contact-usInfoCard a {
   font-weight: normal;
 }
+.contact-usInfoCard  {
+background-color: var(--white);}
 
 #contact-usRight,
 #contact-usLeft {

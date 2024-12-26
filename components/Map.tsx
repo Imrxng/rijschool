@@ -1,11 +1,9 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import { Icon } from "leaflet";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import L from "leaflet";
 import ReactDOMServer from 'react-dom/server';
 
 const Map = () => {
-
   const CUSTOM_ICON = new L.DivIcon({
     html: ReactDOMServer.renderToString(<FaMapMarkerAlt style={{ color: '#ED1C24', fontSize: '35px' }}/>),
     className: "custom-icon",

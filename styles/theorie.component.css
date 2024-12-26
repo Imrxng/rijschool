@@ -80,10 +80,6 @@
   justify-content: space-between;
 }
 
-.items-center {
-  align-items: center;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -178,7 +174,6 @@
   opacity: 0.5;
 }
 
-
 .pakket-theorie-card {
   background-color: white;
   color: black;
@@ -198,8 +193,6 @@
 .pakket-theorie-card svg {
     font-size: 1.7rem;
 }
-
-
 
 .pakket-theorie-header {
   padding: 1.5rem;
@@ -282,7 +275,6 @@
   color: #4b5563;
   padding-bottom: 1rem;
 }
-
 
 .pakket-theorie-info-icon {
   width: 1rem;
@@ -433,3 +425,4 @@
 .slider-dot.active button {
   font-weight: bold;
 }
+
