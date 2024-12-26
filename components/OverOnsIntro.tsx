@@ -2,7 +2,7 @@ import React from 'react'
 
 const OverOnsIntro = () => {
   return (
-    <div>
+    <div >
         <div id="overOnsIntro">
             <h1>Welkom bij Alpha Rijschool</h1>
             <p>Bij ons draait het om méér dan alleen leren autorijden. We begeleiden je met aandacht en passie om een zelfverzekerde en verantwoorde bestuurder te worden.</p>

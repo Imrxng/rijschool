@@ -6,7 +6,7 @@ const Privacy = () => {
       <div className="title-container">
         <h1>Privacy</h1>
       </div>
-      <section>
+      <section className="privacy-text">
         <strong>Artikel 1: Algemeen</strong>
         Deze algemene voorwaarden gelden voor Alpha Rijschool. Fouten of onjuistheden in de tekst kunnen niet worden beschouwd als bindend.
         <ul>

@@ -1,20 +1,16 @@
-.privacy-container {
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+
+.privacy-text {
   padding: 5rem 8rem;
 }
 
 .title-container {
   background-color: var(--blue);
   padding: 10px;
-  border-radius: 5px;
   color: white;
   margin-bottom: 20px;
   margin: 0;
   width: 100%;
   padding: 4rem;
-  margin-top: -3rem;
   text-transform: uppercase;
 }
 
@@ -35,7 +31,3 @@
   font-size: 1.2em;
 }
 
-
-#sectionVoorwaarden {
-  margin-top: 2rem;
-}

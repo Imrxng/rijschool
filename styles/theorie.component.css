@@ -185,8 +185,14 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 0.5rem;
   border: 1px solid #e5e7eb;
-  margin-top: 5rem;
+  margin: 5rem 0;
   width: 60%;
+}
+
+.centerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pakket-theorie-card svg {
@@ -274,7 +280,7 @@
   gap: 0.5rem;
   font-size: 0.875rem;
   color: #4b5563;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -309,4 +315,121 @@
 .pakket-theorie-button:disabled {
   pointer-events: none;
   opacity: 0.5;
+}
+
+.TheorieInfoText {
+  display: flex;
+  align-items: first baseline ;
+  padding: 2px;
+  gap: 0.5rem;
+}
+
+.TheorieInfoText p, .info-theorie-body{
+  color: var(--gray);
+}
+.TheorieInfoText svg{
+  color: var(--red);
+  font-size: 20px;
+}
+
+.geslaagden-card {
+  margin-bottom: 5rem;
+  background-color: var(--white);
+}
+
+.geslaagden-header {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.geslaagden-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: -0.015em;
+}
+
+.geslaagden-subtitle {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+.bg-theorie-second-white {
+  background-color: var(--secondary-white);
+}
+.geslaagden-body {
+  padding: 1.5rem;
+  padding-top: 0;
+}
+
+.slider-container {
+  position: relative;
+  padding: 0 2rem; 
+}
+
+.slider-arrow {
+  position: absolute;
+  font-size: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1; 
+  color: #ED1C24; 
+}
+
+.slider-prev {
+  left: 0;
+}
+
+.slider-next {
+  right: 0;
+}
+
+.slider-list {
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.slider-slide {
+  min-width: 300px;
+  padding: 0 0.5rem;
+}
+
+.image-container {
+  padding: 0.5rem;
+}
+
+.image {
+  width: 100%;
+  max-width: 650px; 
+  height: 300px; 
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.slider-dot {
+  margin: 0 0.25rem;
+}
+
+.slider-dot button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-dot.active button {
+  font-weight: bold;
 }

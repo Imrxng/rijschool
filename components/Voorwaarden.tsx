@@ -6,7 +6,7 @@ const Voorwaarden = () => {
       <div className="title-container">
         <h1>Algemene voorwaarden</h1>
       </div>
-      <section id="sectionVoorwaarden">
+      <section className="privacy-text" id="sectionVoorwaarden">
         Alpha Rijschool doet zijn uiterste best om je privacy te beschermen en te waarborgen. Om je nog meer informatie te geven in de gegevens die wij verzamelen, gebruiken en bewaken, informeren wij je hierover in de onderstaande privacyverklaring.
 
         <strong>PERSOONSGEGEVENS</strong>

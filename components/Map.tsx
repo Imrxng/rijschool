@@ -20,7 +20,7 @@ const Map = () => {
       />
       <Marker position={[51.2206093675261, 4.4592743]} icon={CUSTOM_ICON}>
         <Popup>
-          Let's meet up!
+          <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x47c3f78275834721:0x9e464b0a101b01a4?sa=X&ved=1t:8290&ictx=111" target="_blank">Turnhoutsebaan 76B, 2100 Antwerpen</a>
         </Popup>
       </Marker>
     </MapContainer>

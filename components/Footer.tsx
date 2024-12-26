@@ -19,9 +19,9 @@ const Footer = () => {
             <h3 className="footer-title">Snelle Links</h3>
             <ul className="footer-list">
               <li><Link href="/over-ons">Home</Link></li>
-              <li>Theorie</li>
-              <li>Praktijk</li>
-              <li>FAQ</li>
+              <li><Link href="/theorie">Theorie</Link></li>
+              <li><Link href="/praktijk">Praktijk</Link></li>
+              <li><Link href="/faq">FAQ</Link></li>
               <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
@@ -30,6 +30,7 @@ const Footer = () => {
             <ul className="footer-list">
               <li><a href="https://www.facebook.com/alpharijschool.be">Facebook</a></li>
               <li><a href="https://www.tiktok.com/@alpha.rijschool1">Tiktok</a></li>
+              <li><a href="https://www.instagram.com/rijschoolalpha/">Instagram</a></li>
             </ul>
           </div>
         </div>

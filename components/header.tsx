@@ -2,6 +2,7 @@ import Link from "next/link";
 import Router from "next/router";
 import React from "react";
 import { FaFacebookF, FaTiktok } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Header = () => {
   const router = Router;
@@ -21,6 +22,9 @@ const Header = () => {
         </a>
         <a href="https://www.tiktok.com/@alpha.rijschool1" className="socialsIcons" target="_blank">
           <FaTiktok />
+        </a>
+        <a href="https://www.instagram.com/rijschoolalpha/" className="socialsIcons insta" target="_blank">
+          <AiFillInstagram />
         </a>
       </div>
     </div>
