@@ -12,10 +12,15 @@ import "@/styles/theorie.component.css";
 import "@/styles/praktijk.component.css";
 import "@/styles/over-ons.component.css";
 import "leaflet/dist/leaflet.css";
-
+import Whatsapp from '../components/Whatsapp';
 
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+      <Whatsapp />
+    </>
+  );
 }

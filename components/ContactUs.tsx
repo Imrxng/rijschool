@@ -53,7 +53,10 @@ const ContactUs = () => {
     setErrors(newErrors);
 
     if (valid) {
-      handleSubmit(event);
+      handleSubmit(event).then(() => {
+        form.reset();
+        setErrors({ name: "", email: "", phone: "", message: "" });
+      });
     }
   };
 

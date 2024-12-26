@@ -12,6 +12,14 @@ export default function Home() {
     <>
       <Head>
         <title>Rijschool Alpha</title>
+        <meta name="description" content="Welkom bij Rijschool Alpha. De beste rijschool voor theorie- en praktijklessen. Slaag voor je rijbewijs met onze ervaren instructeurs. Bekijk onze pakketten en tarieven." />
+        <meta name="keywords" content="rijschool, rijlessen, rijbewijs, theorie, praktijk, instructeurs, pakketten, tarieven" />
+        <meta name="author" content="Rijschool Alpha" />
+        <meta property="og:title" content="Rijschool Alpha" />
+        <meta property="og:description" content="Welkom bij Rijschool Alpha. De beste rijschool voor theorie- en praktijklessen. Slaag voor je rijbewijs met onze ervaren instructeurs." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.alpharijschool.be" />
+        <meta property="og:image" content="https://www.alpharijschool.be/images/home.jpg" />
       </Head>
       <div>
         <Header/>
