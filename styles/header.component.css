@@ -119,8 +119,7 @@ a:hover, #hamburger:hover {
 
   #homePhotoWithInfo,
   #infoCardsHome,
-  .privacy-text,
-  .reviews-container {
+  .privacy-text {
     padding: 5rem 2rem !important;
   }
 
@@ -128,12 +127,16 @@ a:hover, #hamburger:hover {
     padding: 2rem !important;
   }
 
+  .reviews-container {
+    padding: 0 !important;
+  }
+
  #introHome h1 {
     text-align: center;
   }
 
   .footer-bottom {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 0.5rem;
 }
 
