@@ -5,7 +5,9 @@ export default function Document() {
     <Html lang="nl-BE">
       <link rel="icon" href="./alpha-logo.png" />
       <Head />
+      
       <body>
+        
         <Main />
         <NextScript />
       </body>
