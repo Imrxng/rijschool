@@ -8,15 +8,17 @@
   padding: 0 8rem 0 8rem;
 }
 
-a, #hamburger {
+a,
+#hamburger {
   text-decoration: none;
   color: var(--gray);
-  transition-duration: 0.5s;  
+  transition-duration: 0.5s;
   font-weight: bold;
   cursor: pointer;
 }
 
-a:hover, #hamburger:hover {
+a:hover,
+#hamburger:hover {
   color: var(--red);
   transition-duration: 0.5s;
 }
@@ -26,7 +28,6 @@ a:hover, #hamburger:hover {
   font-size: 1.7rem;
   display: none;
 }
-
 
 #nav {
   display: flex;
@@ -50,18 +51,15 @@ a:hover, #hamburger:hover {
 
 .insta {
   font-size: 1.7rem;
-  
 }
-
 
 @media screen and (max-width: 1500px) {
   #homePhotoWithInfo {
     align-items: normal;
   }
-  
 }
 
-@media only screen and  (max-width: 1394px) {
+@media only screen and (max-width: 1394px) {
   .cardHome {
     flex: 1 1 calc(50% - 2rem); /* Two cards per row */
     max-width: calc(50% - 2rem);
@@ -71,7 +69,6 @@ a:hover, #hamburger:hover {
   }
 }
 
-
 @media screen and (max-width: 1200px) {
   #homePhotoWithInfo {
     flex-direction: column-reverse;
@@ -79,34 +76,37 @@ a:hover, #hamburger:hover {
   }
 
   .footer-grid {
-    flex-direction: column  ;
+    flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 1020px) {
-  #homePhotoWithInfo  div {
+  #homePhotoWithInfo div {
     width: 100%;
   }
-  #homePhotoWithInfo   {
+  #homePhotoWithInfo {
     gap: 5rem;
   }
   #hamburger {
     display: block;
   }
-  #nav, .socialsIcons {
+  #nav,
+  .socialsIcons {
     display: none;
   }
   .reviews-container {
     padding: 5rem 2rem;
-  
+  }
+  #introHome h2 {
+    text-align: center;
+  }
 }
-#introHome h2 {
-  text-align: center;
+@media only screen and (max-width: 850px) {
+  #overOnsIntroText {
+    padding: 2rem !important;
+  }
 }
-}
-
-
-@media only screen and  (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .cardHome,
   .praktijk-card {
     flex: 1 1 100%;
@@ -118,8 +118,7 @@ a:hover, #hamburger:hover {
   }
 
   #homePhotoWithInfo,
-  #infoCardsHome,
-  .privacy-text {
+  #infoCardsHome .privacy-text, #infoCardsHome, #kiesOns {
     padding: 5rem 2rem !important;
   }
 
@@ -128,19 +127,27 @@ a:hover, #hamburger:hover {
   }
 
   .reviews-container {
-    padding: 0 !important;
+    padding: 2rem 0 !important;
   }
 
- #introHome h1 {
+  #introHome h1 {
     text-align: center;
   }
 
   .footer-bottom {
     flex-direction: column-reverse;
     gap: 0.5rem;
-}
+  }
 
-.footer-grid {
-  padding-left: 4rem;
-}
+  .footer-grid {
+    padding-left: 4rem;
+  }
+
+  .review-item {
+    margin: 3rem !important;
+  }
+
+  #overOnsIntro p {
+    font-size: 1rem !important;
+  }
 }
