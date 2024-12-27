@@ -51,8 +51,6 @@ html::-webkit-scrollbar-thumb {
   color: white;
 }
 
-
-
 @media screen and (max-width: 1500px) {
   #homePhotoWithInfo {
     align-items: normal;

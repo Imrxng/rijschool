@@ -29,6 +29,10 @@ a:hover,
   display: none;
 }
 
+.closed-nav {
+  display: none;
+}
+/* 
 @media (max-width: 768px) {
   #hamburger {
     display: block;
@@ -43,7 +47,7 @@ a:hover,
     flex-direction: column;
     gap: 2rem;
   }
-}
+} */
 
 #overlay {
   position: fixed;

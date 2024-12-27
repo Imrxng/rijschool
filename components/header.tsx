@@ -16,13 +16,13 @@ const Header = () => {
   return (
     <div id="header">
       <img src="./alpha-logo.png" alt="alpha-logo" id="logo" onClick={() => router.push("/")}/>
-      {!isMenuOpen ? <div id="nav" >
+      <div id="nav" >
         <Link href={"/"} className={router.pathname === "/" ? "active" : ""}>Home</Link>
         <Link href={"/over-ons"} className={router.pathname === "/over-ons" ? "active" : ""}>Over ons</Link>
         <Link href={"/theorie"} className={router.pathname === "/theorie" ? "active" : ""}>Theorie</Link>
         <Link href={"/praktijk"} className={router.pathname === "/praktijk" ? "active" : ""}>Praktijk</Link>
         <Link href={"/contact"} className={router.pathname === "/contact" ? "active" : ""}>Contact</Link>
-      </div> : <></>}
+      </div>
       <div id="socials">
         <a href="https://www.facebook.com/alpharijschool.be" className="socialsIcons" target="_blank">
             <FaFacebookF />
