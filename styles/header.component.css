@@ -112,10 +112,10 @@ a:hover, #hamburger:hover {
     max-width: 100%;
   }
 
-  #header, #homePhotoWithInfo, #infoCardsHome {
+  #header {
     padding: 0 2rem 0 2rem;
   }
-  #homePhotoWithInfo, #infoCardsHome {
+  #homePhotoWithInfo, #infoCardsHome, .privacy-text {
     padding: 5rem 2rem;
   }
 
