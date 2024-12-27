@@ -118,8 +118,13 @@ a:hover,
   }
 
   #homePhotoWithInfo,
-  #infoCardsHome .privacy-text, #infoCardsHome, #kiesOns {
+  #infoCardsHome .privacy-text,
+  #infoCardsHome {
     padding: 5rem 2rem !important;
+  }
+
+  #kiesOns {
+    margin:  2rem !important;
   }
 
   .footer-content {
@@ -139,12 +144,10 @@ a:hover,
     gap: 0.5rem;
   }
 
-  .footer-grid {
-    padding-left: 4rem;
-  }
+  
 
   .review-item {
-    margin: 3rem !important;
+    margin: 4rem !important;
   }
 
   #overOnsIntro p {
