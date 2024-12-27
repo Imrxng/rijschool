@@ -99,7 +99,7 @@ html::-webkit-scrollbar-thumb {
   }
   #nav,
   .socialsIcons {
-    display: none;
+    display: none !important;
   }
   .reviews-container {
     padding: 5rem 2rem;
