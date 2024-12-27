@@ -61,6 +61,10 @@
   color: var(--gray);
 }
 
+#OverOnsMeerInfo p {
+  text-align: left;
+}
+
 .kies-ons-item {
   display: flex;
   flex-direction: row;

@@ -74,14 +74,15 @@ const PraktijkCardsBox = () => {
           />
         ))}
         <div className="praktijk-info-box">
-        <CiCircleInfo />
-        <p>
-          Bij elk pakket wordt er €25 inschrijvingskosten in rekening gebracht.
-          Deze kosten dekken de administratieve verwerking van je inschrijving.
-          Neem contact met ons op voor meer informatie of om je in te schrijven
-          voor een pakket.
-        </p>
-      </div>
+          <CiCircleInfo />
+          <p>
+            Bij elk pakket wordt €25 inschrijvingskosten in rekening gebracht.
+            Deze kosten dekken de administratieve verwerking van je
+            inschrijving. Daarnaast zijn de kosten voor het praktijkexamen
+            inbegrepen in het pakket. Neem contact met ons op voor meer
+            informatie of om je direct in te schrijven voor een pakket.
+          </p>
+        </div>
       </div>
     </>
   );

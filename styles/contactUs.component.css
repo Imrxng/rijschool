@@ -48,9 +48,8 @@ background-color: var(--white);}
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  height: 100%;
   padding: 2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.01), 0 8px 16px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
 

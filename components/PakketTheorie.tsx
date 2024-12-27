@@ -5,10 +5,12 @@ import Link from "next/link";
 
 const PakketTheorie = () => {
   return (
+    <>
+    <div className="title-container">
+      <h1>Theorie</h1>
+    </div>
     <div className="privacy-container centerContainer bg-theorie-second-white">
-      <div className="title-container">
-        <h1>Theorie</h1>
-      </div>
+      
       <div className="pakket-theorie-card">
         <div className="pakket-theorie-header">
           <h3 className="pakket-theorie-heading">
@@ -52,7 +54,8 @@ const PakketTheorie = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </div>  
+    </>
   );
 };
 

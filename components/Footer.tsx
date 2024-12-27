@@ -22,7 +22,7 @@ const Footer = () => {
             <li><Link href="/over-ons">Over ons</Link></li>
             <li><Link href="/theorie">Theorie</Link></li>
               <li><Link href="/praktijk">Praktijk</Link></li>
-              <li><Link href="/faq">FAQ</Link></li>
+              <li><Link href="/veelgestelde-vragen">Veelgestelde vragen</Link></li>
               <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>

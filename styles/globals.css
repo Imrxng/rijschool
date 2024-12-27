@@ -52,3 +52,194 @@ html::-webkit-scrollbar-thumb {
 }
 
 
+
+@media screen and (max-width: 1500px) {
+  #homePhotoWithInfo {
+    align-items: normal;
+  }
+}
+
+@media only screen and (max-width: 1394px) {
+  .cardHome {
+    flex: 1 1 calc(50% - 2rem); /* Two cards per row */
+    max-width: calc(50% - 2rem);
+  }
+  #infoCardsHome {
+    padding: 5rem 8rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #homePhotoWithInfo {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer-grid {
+    flex-direction: column;
+  }
+  #contact-usRight {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  #contact-usRight {
+    padding-bottom: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  #homePhotoWithInfo div {
+    width: 100%;
+  }
+  #homePhotoWithInfo {
+    gap: 5rem;
+  }
+  #hamburger {
+    display: block;
+  }
+  #nav,
+  .socialsIcons {
+    display: none;
+  }
+  .reviews-container {
+    padding: 5rem 2rem;
+  }
+  #introHome h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  #contact-usRight {
+    padding-bottom: 5.2rem;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  #contact-usRight {
+    padding-bottom: 6.7rem;
+  }
+}
+
+
+@media only screen and (max-width: 850px) {
+  #overOnsIntroText {
+    padding: 2rem ;
+  }
+
+  #overOnsIntro p {
+    font-size: 1rem ;
+    padding: 0 2rem;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cardHome,
+  .praktijk-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  #header {
+    padding: 0 2rem ;
+  }
+
+  #homePhotoWithInfo, .privacy-text {
+    padding: 5rem 2rem ;
+  }
+
+  #infoCardsHome {
+    padding: 2rem ;
+  }
+
+  #OverOnsMeerInfo {
+    padding-top: 0;
+  }
+
+  #kiesOns {
+    margin:  2rem ;
+    flex-direction: column;
+  }
+  #contact-usRight {
+    padding-bottom: 5.2rem;
+  }
+
+  .kies-ons-item {
+    width: 100%;
+  }
+  .footer-content {
+    padding: 2rem ;
+  }
+
+  .reviews-container {
+    padding: 2rem 0 ;
+  }
+
+  #introHome h1 {
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+  }
+
+  
+
+  .review-item {
+    margin: 4rem ;
+  }
+  .pakket-theorie-card {
+    width: 100%;
+  }
+
+  .centerContainer, .flex-container {
+    padding: 1rem 2rem;
+  }
+
+  .praktijk-info-box {
+    max-width: 400px;
+    font-size: 12px;
+    margin-bottom: 3rem;
+  }
+
+  .faq-container {
+    margin: 2rem ;
+    padding: 1rem ;
+  }
+}
+
+
+@media screen and (max-width: 654px) {
+  #contact-us {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  #contact-usRight, #contact-usLeft {
+    width: 100%;
+  }
+
+  #contact-usRight {
+    padding-bottom: 0;
+  }
+
+  #map {
+    padding: 5rem 2rem;
+  }
+
+  
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+  .praktijk-info-box {
+    max-width: 300px;
+    font-size: 10px;
+  }
+}
