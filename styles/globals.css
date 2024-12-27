@@ -95,7 +95,7 @@ html::-webkit-scrollbar-thumb {
     gap: 5rem;
   }
   #hamburger {
-    display: block;
+    display: block !important;
   }
   #nav,
   .socialsIcons {
