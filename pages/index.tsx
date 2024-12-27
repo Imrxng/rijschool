@@ -26,7 +26,9 @@ export default function Home() {
         <IntroHome/>
         <InfoCardsHome/>
         <HomePhotoWithInfo/>
-        <Ervaringen/>
+        <div className="reviews-container">
+          <Ervaringen/>
+        </div>
         <Footer/>
       </div>
     </>

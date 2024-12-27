@@ -209,6 +209,9 @@ html::-webkit-scrollbar-thumb {
     margin: 2rem ;
     padding: 1rem ;
   }
+  .reviews-container {
+    padding: 5rem 2rem ;
+  }
 }
 
 
