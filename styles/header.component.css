@@ -8,17 +8,25 @@
   padding: 0 8rem 0 8rem;
 }
 
-a {
+a, #hamburger {
   text-decoration: none;
   color: var(--gray);
   transition-duration: 0.5s;  
   font-weight: bold;
+  cursor: pointer;
 }
 
-a:hover {
+a:hover, #hamburger:hover {
   color: var(--red);
   transition-duration: 0.5s;
 }
+
+#hamburger {
+  margin-top: 0.2rem;
+  font-size: 1.7rem;
+  display: none;
+}
+
 
 #nav {
   display: flex;
@@ -43,4 +51,83 @@ a:hover {
 .insta {
   font-size: 1.7rem;
   
+}
+
+
+@media screen and (max-width: 1500px) {
+  #homePhotoWithInfo {
+    align-items: normal;
+  }
+  
+}
+
+@media only screen and  (max-width: 1394px) {
+  .cardHome {
+    flex: 1 1 calc(50% - 2rem); /* Two cards per row */
+    max-width: calc(50% - 2rem);
+  }
+  #infoCardsHome {
+    padding: 5rem 8rem;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  #homePhotoWithInfo {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer-grid {
+    flex-direction: column  ;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  #homePhotoWithInfo  div {
+    width: 100%;
+  }
+  #homePhotoWithInfo   {
+    gap: 5rem;
+  }
+  #hamburger {
+    display: block;
+  }
+  #nav, .socialsIcons {
+    display: none;
+  }
+  .reviews-container {
+    padding: 5rem 2rem;
+  
+}
+#introHome h2 {
+  text-align: center;
+}
+}
+
+
+@media only screen and  (max-width: 768px) {
+  .cardHome {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+
+  #header, #homePhotoWithInfo, #infoCardsHome {
+    padding: 0 2rem 0 2rem;
+  }
+  #homePhotoWithInfo, #infoCardsHome {
+    padding: 5rem 2rem;
+  }
+
+  .footer-content {
+    padding: 5rem;
+  }
+
+  .praktijk-card {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+  #introHome h1 {
+    text-align: center;
+  }
 }
