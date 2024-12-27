@@ -32,22 +32,6 @@ a:hover,
 .closed-nav {
   display: none;
 }
-/* 
-@media (max-width: 768px) {
-  #hamburger {
-    display: block;
-  }
-
-  #nav {
-    display: none;
-  }
-
-  #nav.open {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-} */
 
 #overlay {
   position: fixed;
