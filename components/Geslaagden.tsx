@@ -50,7 +50,7 @@ const Geslaagden = () => {
                 <img
                   alt="Geslaagde student 1"
                   className="image"
-                  src="./sfeerbeeldHome.jpg"
+                  src="./praktijk_geslaagd-1.webp"
                 />
               </div>
             </div>
@@ -59,7 +59,7 @@ const Geslaagden = () => {
                 <img
                   alt="Geslaagde student 2"
                   className="image"
-                  src="./sfeerbeeldHome.jpg"
+                  src="./praktijk_geslaagd-2.webp"
                 />
               </div>
             </div>
@@ -68,7 +68,34 @@ const Geslaagden = () => {
                 <img
                   alt="Geslaagde student 3"
                   className="image"
-                  src="./sfeerbeeldHome.jpg"
+                  src="./praktijk_geslaagd-3.webp"
+                />
+              </div>
+            </div>
+            <div className="slider-slide">
+              <div className="image-container">
+                <img
+                  alt="Geslaagde student 4"
+                  className="image"
+                  src="./praktijk_geslaagd-4.webp"
+                />
+              </div>
+            </div>
+            <div className="slider-slide">
+              <div className="image-container">
+                <img
+                  alt="Geslaagde student 5"
+                  className="image"
+                  src="./praktijk_geslaagd-5.webp"
+                />
+              </div>
+            </div>
+            <div className="slider-slide">
+              <div className="image-container">
+                <img
+                  alt="Geslaagde student 6"
+                  className="image"
+                  src="./praktijk_geslaagd-6.webp"
                 />
               </div>
             </div>

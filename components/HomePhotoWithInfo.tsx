@@ -3,7 +3,7 @@ import React from "react";
 const HomePhotoWithInfo = () => {
   return (
     <div id="homePhotoWithInfo">
-      <img src="./sfeerbeeldHome.jpg" alt="Alpha rijschool" />
+      <img src="./sfeerbeeldHome.webp" alt="Alpha rijschool" />
       <div>
         <RijschoolIntro />
         <Voordelen />

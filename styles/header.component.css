@@ -288,5 +288,6 @@ a:hover,
 
   #introHome {
     padding: 4rem 0;
+    gap: 0;
   }
 }

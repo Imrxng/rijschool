@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <div id="header">
-      <img src="./alpha-logo.png" alt="alpha-logo" id="logo" onClick={() => router.push("/")}/>
+      <img src="./alpha-logo.webp" alt="alpha-logo" id="logo" onClick={() => router.push("/")}/>
       <div id="nav" >
         <Link href={"/"} className={router.pathname === "/" ? "active" : ""}>Home</Link>
         <Link href={"/over-ons"} className={router.pathname === "/over-ons" ? "active" : ""}>Over ons</Link>

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer id="footer">
       <div className="footer-content">
         <div className="footer-grid">
-        <img src="./alpha-logo.png" alt="alpha-logo" id="logoFooter"/>
+        <img src="./alpha-logo.webp" alt="alpha-logo" id="logoFooter"/>
           <div>
             <h3 className="footer-title">Contact</h3>
             <ul className="footer-list">
