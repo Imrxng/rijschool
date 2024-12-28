@@ -265,6 +265,10 @@ a:hover,
 
   #contact-usRight {
     padding-bottom: 0;
+    margin-bottom: 3rem;
+  }
+  .successMessage, .errorMessage {
+    margin-bottom: 2rem;
   }
 
   #map {
@@ -279,9 +283,10 @@ a:hover,
   }
   .reviews-container > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div  {
     height: 250px;
+    margin: 0 4rem;
   }
 
   #introHome {
-    padding: 5rem 0;
+    padding: 4rem 0;
   }
 }
