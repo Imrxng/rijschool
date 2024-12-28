@@ -189,7 +189,7 @@ a:hover,
   }
 
   #infoCardsHome {
-    padding: 2rem;
+    padding: 5rem 2rem;
   }
 
   #OverOnsMeerInfo {
@@ -279,5 +279,9 @@ a:hover,
   }
   .reviews-container > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div  {
     height: 250px;
+  }
+
+  #introHome {
+    padding: 5rem 0;
   }
 }
