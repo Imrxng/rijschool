@@ -146,5 +146,5 @@ background-color: var(--white);}
 }
 
 .onderwerpItem > input[type="checkbox"] {
-  width: 10px;
+  width: auto;
 }

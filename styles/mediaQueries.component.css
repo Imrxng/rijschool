@@ -28,7 +28,6 @@
   }
 }
 
-
 @media only screen and (max-width: 1020px) {
   #homePhotoWithInfo div {
     width: 100%;
@@ -56,12 +55,11 @@
   .onderwerpItem {
     width: 100%;
   }
-  input[type="checkbox"] {
-    width: 10px;
-    height: 10px;
+
+  .onderwerpItem > input[type="checkbox"] {
+    width: 5px;
   }
 }
-
 
 @media only screen and (max-width: 850px) {
   #overOnsIntroText {
@@ -149,7 +147,6 @@
   .reviews-container {
     padding: 5rem 2rem;
   }
- 
 }
 
 @media screen and (max-width: 654px) {
