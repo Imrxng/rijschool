@@ -28,11 +28,6 @@
   }
 }
 
-@media screen and (max-width: 1080px) {
-  #contact-usRight {
-    padding-bottom: 3.5rem;
-  }
-}
 
 @media only screen and (max-width: 1020px) {
   #homePhotoWithInfo div {
@@ -56,17 +51,6 @@
   }
 }
 
-@media screen and (max-width: 905px) {
-  #contact-usRight {
-    padding-bottom: 5.2rem;
-  }
-}
-
-@media screen and (max-width: 880px) {
-  #contact-usRight {
-    padding-bottom: 6.7rem;
-  }
-}
 
 @media only screen and (max-width: 850px) {
   #overOnsIntroText {
@@ -107,9 +91,6 @@
   #kiesOns {
     margin: 2rem;
     flex-direction: column;
-  }
-  #contact-usRight {
-    padding-bottom: 5.2rem;
   }
 
   .kies-ons-item {
@@ -173,7 +154,6 @@
 
   #contact-usRight {
     padding-bottom: 0;
-    margin-bottom: 3rem;
   }
   .successMessage,
   .errorMessage {

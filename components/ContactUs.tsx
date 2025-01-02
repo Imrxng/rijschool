@@ -143,6 +143,39 @@ const ContactUs = () => {
             <textarea name="message" id="message" required rows={5}></textarea>
             {errors.message && <p className="errorMessage">{errors.message}</p>}
           </div>
+          <div className="contact-usInput">
+            <label htmlFor="onderwerp">
+              Onderwerp: <span className="redColor">*</span>
+            </label>
+            <br />
+            <div id="onderwerp">
+              <div className="onderwerpItem">
+                <label htmlFor="onderwerp">2 uur manueel</label>
+                <input type="checkbox" name="onderwerp"  value={'2 uur manueel'} />
+              </div>
+              <div className="onderwerpItem">
+                <label htmlFor="onderwerp">6 uur manueel</label>
+                <input type="checkbox" name="onderwerp" value={'6 uur manueel'} />
+              </div>
+              <div className="onderwerpItem">
+                <label htmlFor="onderwerp">20 uur manueel</label>
+                <input type="checkbox" name="onderwerp" value={'20 uur manueel'} />
+              </div>
+              <div className="onderwerpItem">
+                <label htmlFor="onderwerp">2 uur automaat</label>
+                <input type="checkbox" name="onderwerp" value={'2 uur automaat'} />
+              </div>
+              <div className="onderwerpItem">
+                <label htmlFor="onderwerp">6 uur automaat</label>
+                <input type="checkbox" name="onderwerp" value={'6 uur automaat'} />
+              </div>
+              <div className="onderwerpItem">
+                <label htmlFor="onderwerp">20 uur automaat</label>
+                <input type="checkbox" name="onderwerp" value={'20 uur automaat'} />
+              </div>
+            </div>
+            {errors.message && <p className="errorMessage">{errors.message}</p>}
+          </div>
           <button id="buttonSendMessage" type="submit" disabled={state.submitting}>
             {state.submitting ? "Verzenden..." : "Verzenden"}
           </button>        
