@@ -13,6 +13,8 @@ import "@/styles/praktijk.component.css";
 import "@/styles/over-ons.component.css";
 import "leaflet/dist/leaflet.css";
 import "@/styles/header.component.css";
+import "@/styles/mediaQueries.component.css";
+
 
 import Whatsapp from '../components/Whatsapp';
 
