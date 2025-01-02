@@ -49,6 +49,17 @@
   #introHome h2 {
     text-align: center;
   }
+  #onderwerp {
+    gap: 10px;
+    flex-direction: column;
+  }
+  .onderwerpItem {
+    width: 100%;
+  }
+  input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+  }
 }
 
 
@@ -138,16 +149,7 @@
   .reviews-container {
     padding: 5rem 2rem;
   }
-  #onderwerp {
-    gap: 0px;
-  }
-  .onderwerpItem > label {
-    font-size: 10px;
-  }
-  input[type="checkbox"] {
-    width: 10px;
-    height: 10px;
-  }
+ 
 }
 
 @media screen and (max-width: 654px) {
