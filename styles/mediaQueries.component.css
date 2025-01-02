@@ -54,11 +54,13 @@
   }
   .onderwerpItem {
     width: 100%;
+    justify-content: first baseline;
   }
 
   .onderwerpItem > input[type="checkbox"] {
     width: 5px !important;
   }
+  
 }
 
 @media only screen and (max-width: 850px) {
