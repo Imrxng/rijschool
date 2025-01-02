@@ -171,7 +171,7 @@ const ContactUs = () => {
               </div>
               <div className="onderwerpItem">
                 <label htmlFor="onderwerp">20 uur automaat</label>
-                <input type="checkbox" style={{width: '10px', height: '10px'}} name="onderwerp" value={'20 uur automaat'} />
+                <input type="checkbox" name="onderwerp" value={'20 uur automaat'} />
               </div>
             </div>
             {errors.message && <p className="errorMessage">{errors.message}</p>}
